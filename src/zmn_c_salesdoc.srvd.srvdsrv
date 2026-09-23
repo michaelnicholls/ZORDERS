@@ -1,0 +1,4 @@
+@EndUserText.label: 'sales doc'
+define service Zmn_c_salesdoc {
+  expose zmn_c_salesdoc;
+}

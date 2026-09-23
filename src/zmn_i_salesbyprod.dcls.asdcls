@@ -1,0 +1,11 @@
+@EndUserText.label: 'sales by prod'
+@MappingRole: true
+define role ZMN_I_SALESBYPROD {
+    grant
+        select
+            on
+                ZMN_I_SALESBYPROD
+                    where
+                        inheriting conditions from entity I_SalesDocumentBasic;
+                        
+}

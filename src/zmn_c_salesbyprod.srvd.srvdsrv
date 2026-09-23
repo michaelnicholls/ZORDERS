@@ -1,0 +1,4 @@
+@EndUserText.label: 'sales by prod'
+define service Zmn_c_salesbyprod {
+  expose zmn_c_salesbyprod;
+}
